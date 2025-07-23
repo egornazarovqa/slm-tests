@@ -21,4 +21,4 @@ jobs:
 
       - name: ▶️ Run tests with Mocha from search-test
         run: |
-          npx mocha search-test/**/*.js --reporter mochawesome
+          npm test
