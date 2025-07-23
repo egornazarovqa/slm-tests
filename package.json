@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha search-test/*.js --timeout 30000 --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=search-test/mochawesome-report,reportFilename=report"
+    "test": "mocha search-test/*.js --timeout 30000 --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=search-test,reportFilename=report"
   },
   "author": "",
   "license": "ISC",
