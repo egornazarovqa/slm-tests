@@ -1,4 +1,4 @@
-name: 🧪 Run Selenium JS Tests from search-test folder
+name: 🧪 Run Search Tests
 
 on:
   workflow_dispatch:  # Запуск вручную из Actions
