@@ -4,10 +4,13 @@ const assert = require("assert");
 
 //mocha describe block
 describe("search test Subculture", function () {
+    //timeout
+    this.timeout(30000);
     //headless options
     let driver;
 
     before(async function () {
+        this.timeout(30000);
         const options = new chrome.Options();
         options.addArguments(
             '--headless',
