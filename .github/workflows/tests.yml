@@ -21,3 +21,8 @@ jobs:
 
       - name: ▶️ Run tests with Mocha from search-test
         run: npm test
+      - name: 📤 Upload plain text test report
+        uses: actions/upload-artifact@v4
+        with:
+        name: text-report
+        path: test-report.log
