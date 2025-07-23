@@ -25,5 +25,5 @@ jobs:
       - name: 📤 Upload plain text test report
         uses: actions/upload-artifact@v4
         with:
-          name: text-report
+          name: search-tests-report
           path: test-report.log
