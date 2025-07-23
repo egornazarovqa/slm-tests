@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/headless/*.js --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=D:/Selenium/tests/headless,reportFilename=search-test-headless"
+    "test": "mocha search-test/*.js --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=search-test,reportFilename=report"
   },
   "author": "",
   "license": "ISC",
