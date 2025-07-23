@@ -26,7 +26,7 @@ describe("search test Subculture", function () {
     });
 
     //mocha it для Субкультура
-    it("Stevie search", async function () {
+    it("Subculture search test", async function () {
 
         //перейти на сайт
         await driver.get("https://www.salonsecret.ru");
