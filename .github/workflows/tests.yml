@@ -20,7 +20,7 @@ jobs:
         run: npm install
 
       - name: ▶️ Run tests with Mocha from search-test
-        run: npx mocha search-test/*.js --timeout 30000 --parallel --reporter spec > test-report.log || true
+        run: npm test
         
       - name: 📤 Upload plain text test report
         uses: actions/upload-artifact@v4
