@@ -26,7 +26,7 @@ describe("search test", function () {
     });
 
     //mocha it для Stevie
-    it("Stevie search Ирокез", async function () {
+    it("Iroquai search test", async function () {
 
         //перейти на сайт
         await driver.get("https://www.salonsecret.ru");
