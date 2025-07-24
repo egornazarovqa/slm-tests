@@ -25,7 +25,7 @@ describe("search test", function () {
         driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build();
     });
 
-    //mocha it для Stevie
+    //mocha it для Iroquai
     it("Iroquai search test", async function () {
 
         //перейти на сайт
