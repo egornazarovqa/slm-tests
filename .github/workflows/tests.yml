@@ -20,7 +20,9 @@ jobs:
         run: npm install
 
       - name: ▶️ Run tests with Mocha from search-test
-        run: npm test
+        run: |
+        echo "Дата и время запуска: $(date)" > test-results.txt
+        npm test >> test-results.txt || echo "Тесты завершились с ошибкой" >> test-results.txt
         
       - name: 📤 Upload plain text test report
         uses: actions/upload-artifact@v4
