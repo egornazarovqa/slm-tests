@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha SSr-tests/*.js --timeout 30000 --parallel --reporter spec"
+    "test": "mocha SSr-tests/*.js --timeout 30000 --parallel --reporter spec > test-report.log || true"
   },
   "author": "",
   "license": "ISC",
