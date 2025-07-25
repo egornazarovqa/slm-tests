@@ -23,7 +23,7 @@ jobs:
         run: npm test
         
       - name: 📤 Upload JSON report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: SSr-tests-report
           path: SSr-tests-result.json
